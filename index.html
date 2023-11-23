@@ -5,30 +5,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Сучасна пекарня</title>
+    <style>
+        /* h1 {
+            background-color: blueviolet;
+        } */
+    </style>
+    <link rel="stylesheet" href="css/styles.css">
 
     <head>
 
     <body>
         <header>
             <nav>
-                <a href="#">
+                <a href="./index.html">
                     <img src="./images/logo.svg" alt="Логотип сучасної пекарні">
                 </a>
                 <ul>
-                    <li><a href="#">Франшиза</a></li>
-                    <li><a href="#">Наші традиції</a></li>
-                    <li><a href="#">Формати</a></li>
-                    <li><a href="#">Контакти</a></li>
+                    <li><a class="link" href="#traditions-section">Наші традиції</a></li>
+                    <li><a class="link" href="#cookers-section">Шеф-кухарі</a></li>
+                    <li><a class="link" href="#format-section">Формати</a></li>
+                    <li><a class="link" href="#contact-section">Контакти</a></li>
                 </ul>
             </nav>
-            <button type="button">Замовити дзвінок</button>
+            <button class="button" type="button">Замовити дзвінок</button>
         </header>
         <main>
             <section>
-                <h1>Сучасна пекарня</h1>
+                <h1 class="hero-title"><span>Сучасна</span>пекарня</h1>>
             </section>
-            <section>
-                <ul>
+            <section id="traditions-section">
+                <ul class="advantages-list">
                     <li>Великий попит на ринку</li>
                     <li>Доступні за бюджетом формати</li>
                     <li>Досвідчена управлінська команда</li>
@@ -46,7 +52,7 @@
                 </p>
                 <img src="./images/baker-man.jpg" alt="Чоловік пекар дивиться на батони з посмішкою ">
             </section>
-            <section>
+            <section id="cookers-section">
                 <h2>Наші найкращі
                     шеф -кухарі</h2>
                 <ul>
@@ -75,7 +81,7 @@
 
 
             </section>
-            <section>
+            <section id="format-section">
                 <h2>Формати</h2>
                 <ul>
                     <li>
@@ -94,7 +100,7 @@
                         </article>
                     </li>
             </section>
-            <section>
+            <section id="contact-section">
                 <h2>Приєднуйся до
                     мережі пекарень</ul>
                 </h2>
@@ -108,8 +114,8 @@
                     <img src="./images/logo.svg" alt="Логотип сучасної пекарні">
                 </a>
                 <ul>
-                    <li><a href="#">Франшиза</a></li>
                     <li><a href="#">Наші традиції</a></li>
+                    <li><a href="#">Шеф-кухарі</a></li>
                     <li><a href="#">Формати</a></li>
                     <li><a href="#">Контакти</a></li>
                 </ul>
