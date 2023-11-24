@@ -27,6 +27,10 @@
 
 .hero-title {
   color: #faf4ea; /* HEX value */
+  text-align: center;
+  font-display: swap;
+  font-family: "Poppins";
+  font-weight: 400;
 }
 .hero-title span {
   color: var(--color-brand);
